@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;M6Liga&apos;&#x0D;&#x0A;- Original project: &apos;M6Liga&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     data.json&#x0D;&#x0A;     liga.bin&#x0D;&#x0A;     partido.bin" description="Delete elements" element1="copiaSeguridad/data.json" element2="copiaSeguridad/liga.bin" element3="copiaSeguridad/partido.bin" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1540047960183" subPackages="false" version="1.0"/>
+</session>
