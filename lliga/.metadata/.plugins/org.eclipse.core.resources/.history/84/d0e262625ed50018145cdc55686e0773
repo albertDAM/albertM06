@@ -1,0 +1,9 @@
+import java.io.IOException;
+import java.io.RandomAccessFile;
+
+public abstract class RAFElement {
+	public abstract void read(RandomAccessFile fra) throws IOException;
+	public abstract void write(RandomAccessFile fra) throws IOException;
+	public abstract int size();
+
+}

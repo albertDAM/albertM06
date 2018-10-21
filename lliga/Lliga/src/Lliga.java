@@ -1,0 +1,34 @@
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Lliga extends RAFArray {
+
+	public Lliga(int equips, String nom_fitxer) throws IOException {
+		super(equips, equips, nom_fitxer);		
+		nEquips = equips;
+		//filas = visitant;
+		//columnes = local;			
+	}
+	
+	
+	public Lliga(String nom_fitxer) throws IOException {
+		super(nom_fitxer);		
+		nEquips = filas;
+		//filas = visitant;
+		//columnes = local;			
+	}
+	
+	int nEquips;
+	
+	public void reboot() throws IOException {
+		
+		Partit proba = new Partit();
+		
+		for (int i=0; i < nEquips; i++) {
+			for (int j=0; j < nEquips; j++)
+				set(i,j,proba);
+		}
+	}
+
+	
+}
